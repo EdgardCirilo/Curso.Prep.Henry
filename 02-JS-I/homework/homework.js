@@ -50,11 +50,15 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+  var multiplo = x * y;
+  return multiplo;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+  var divisor = x / y;
+  return divisor;
 }
 
 function sonIguales(x, y) {
