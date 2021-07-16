@@ -28,8 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  var palabra = "Return";
-  return palabra;
+  return str;
 }
 
 function suma(x, y) {
@@ -114,12 +113,20 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num % 2 === 0) {
+    return true;
+  }
+  return false;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num % 2 === 0) {
+    return false;
+  }
+  return true;
 }
 
 function elevarAlCuadrado(num) {
@@ -175,6 +182,8 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
+  var signo = "str" + "!";
+  return signo;
 }
 
 function combinarNombres(nombre, apellido) {
